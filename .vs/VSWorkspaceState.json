@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\.idea",
+    "\\public",
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\header",
+    "\\src\\components\\slider"
+  ],
+  "SelectedNode": "\\src\\components\\slider\\Slider.jsx",
+  "PreviewInSolutionExplorer": false
+}
