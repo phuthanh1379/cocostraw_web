@@ -7,6 +7,7 @@ function BasicCard(props) {
         <div className='basic-card-container'>
             <div className='slider-bg'>
                 <img src={props._imgLink} alt="alt-name" />
+                <a className="slider-button" href={props._learnMoreLink}>Learn more</a>
             </div>
         </div>
     );
