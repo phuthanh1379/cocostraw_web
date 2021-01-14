@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1a388eb-3ce5-4bfc-8734-80909b39eb08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/header/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scenes/about-us/AboutUs.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scenes/homepage/HomePage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scenes/products/Products.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/Header1.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/Header1.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/navbar/NavBar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/navbar/NavBar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/navbar/SideBarData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scenes/about-us/AboutUs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/about-us/AboutUs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scenes/homepage/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/homepage/HomePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scenes/products/Products.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/products/Products.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +62,8 @@
       <workItem from="1610181804190" duration="436000" />
       <workItem from="1610261231769" duration="25000" />
       <workItem from="1610261261163" duration="48000" />
+      <workItem from="1610543856840" duration="7195000" />
+      <workItem from="1610594665502" duration="4067000" />
     </task>
     <servers />
   </component>
