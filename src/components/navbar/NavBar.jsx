@@ -2,9 +2,10 @@ import React from 'react';
 import {Link} from "react-router-dom";
 import * as FaIcons from "react-icons/fa";
 import {AiOutlineClose} from "react-icons/all";
+import {IconContext} from "react-icons";
+
 import {SideBarData} from "./SideBarData";
 import "./NavBar.scss";
-import {IconContext} from "react-icons";
 
 class NavBar extends React.Component {
     state = {

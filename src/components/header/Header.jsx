@@ -1,27 +1,40 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
 import './Header.scss';
+import logo from '../../resources/images/logo/logo.png';
 
-const Header = () => {
+const Header1 = () => {
     return (
-        <nav class="menu">
-            <ul>
-                <li id="menu-logo">
-                    <a href="/">
-                        <img 
-                            src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" 
-                            alt="logo"/>
-                    </a>
-                </li>
-
-                <li id="menu-items">
-                    <li id="menu-home"><a href="/">TRANG CHỦ</a></li>
-                    <li id="menu-product"><a href="/">SẢN PHẨM</a></li>
-                    <li id="menu-about"><a href="/">VỀ CHÚNG TÔI</a></li>
-                </li>
-            </ul>
-        </nav>
+        <div className="header">
+            <div className="container">
+                <div className="menu-logo">
+                    <Link to="/">
+                        <img src={logo}/>
+                    </Link>
+                </div>
+                <div className="menu">
+                    <ul>
+                        <li>
+                            <Link to="/" className="menu-item">
+                                TRANG CHỦ    
+                            </Link>    
+                        </li>
+                        <li>
+                            <Link to="/products" className="menu-item">
+                                SẢN PHẨM
+                            </Link>    
+                        </li>
+                        <li>
+                            <Link to="/aboutus" className="menu-item">
+                                VỀ CHÚNG TÔI
+                            </Link>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     );
 };
 
-export default Header;
+export default Header1;

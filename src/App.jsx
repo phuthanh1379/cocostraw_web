@@ -1,15 +1,15 @@
 import React from 'react';
+import {Route, BrowserRouter, Switch} from "react-router-dom";
+import {useMediaQuery} from "react-responsive/src";
 
 import './App.scss';
-import Header from './components/header/Header1';
-import Slider from './components/slider/Slider';
-import Test from './components/slider/Test';
+// Components
+import Header from './components/header/Header';
 import NavBar from "./components/navbar/NavBar";
-import {Route, BrowserRouter, Switch} from "react-router-dom";
-import HomePage from "./scenes/homepage/HomePage";
+// Pages
 import AboutUs from "./scenes/about-us/AboutUs";
+import HomePage from "./scenes/homepage/HomePage";
 import Products from "./scenes/products/Products";
-import {useMediaQuery} from "react-responsive/src";
 
 
 const App = () => {
