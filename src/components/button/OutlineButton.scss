@@ -1,0 +1,18 @@
+
+
+button {
+  border-radius: 50px;
+  border: 1px solid black;
+  background: transparent;
+  color: black;
+  padding: 8px 32px;
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  transition: 250ms;
+}
+
+button:hover {
+  border: 1px solid #86a746;
+  color: white;
+  background: #86a746;
+}
