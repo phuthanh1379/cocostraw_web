@@ -1,6 +1,6 @@
 .container {
   background-color: white;
-  height: 20vh;
+  height: 130px;
   top: 0;
   z-index: 99;
   width: 100vw;
@@ -12,12 +12,14 @@
   position: fixed;
 
   .menu-logo {
+
     flex: 2;
     display: flex;
     align-items: center;
 
     img {
-      height: 12vh;
+      margin-top: 10px;
+      height: 70px;
       background-color: transparent;
 	}
     img:hover {
@@ -50,7 +52,7 @@
     .menu-item {
       color: #86a746;
       display: block;
-      font: 15px/25px 'Montserrat', sans-serif;
+      font: 13px/20px 'Montserrat', sans-serif;
       text-align: center;
       text-decoration: none;
       -webkit-transition: all .25s ease;

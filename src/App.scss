@@ -17,11 +17,8 @@ h1 {
 
 // Non-Generic
 .homepage,
-.aboutus,
-.products {
-  display: flex;
+.product {
   height: 130vh;
-  align-items: center;
-  justify-content: center;
   font-size: 3rem;
+  margin-top: 150px;
 }

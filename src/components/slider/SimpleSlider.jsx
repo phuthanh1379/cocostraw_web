@@ -1,7 +1,9 @@
 import React, { Component } from "react";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
-import "./SimpleSlider.scss";
+import './SimpleSlider.scss'
 
 export default class SimpleSlider extends Component {
   render() {
@@ -10,23 +12,42 @@ export default class SimpleSlider extends Component {
       infinite: true,
       speed: 500,
       slidesToShow: 1,
-      slidesToScroll: 1
+      slidesToScroll: 1,
+      autoPlay: true
     };
     return (
-      <div className="simple-slider">
-        <h2> Single Item</h2>
-        <Slider {...settings}>
-          <div className="slider-item">
-            <img src="https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg"/>
-          </div>
-          <div className="slider-item">
-            <img src="https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg"/>
-          </div>
-          <div className="slider-item">
-            <img src="https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg"/>
-          </div>
-        </Slider>
-      </div>
+        <div className="slider">
+          <h2> Multiple items </h2>
+          <Slider {...settings}>
+            <div>
+              <h3>1</h3>
+            </div>
+            <div>
+              <h3>2</h3>
+            </div>
+            <div>
+              <h3>3</h3>
+            </div>
+            <div>
+              <h3>4</h3>
+            </div>
+            <div>
+              <h3>5</h3>
+            </div>
+            <div>
+              <h3>6</h3>
+            </div>
+            <div>
+              <h3>7</h3>
+            </div>
+            <div>
+              <h3>8</h3>
+            </div>
+            <div>
+              <h3>9</h3>
+            </div>
+          </Slider>
+        </div>
     );
   }
 }

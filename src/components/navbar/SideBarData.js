@@ -13,7 +13,7 @@ export const SideBarData = [
     },
     {
         title: "SẢN PHẨM",
-        path: "/products",
+        path: "/product",
         icon: <RiProductHuntLine />,
         cName: "nav-text",
     },

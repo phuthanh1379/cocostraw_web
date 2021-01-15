@@ -7,22 +7,21 @@ import './App.scss';
 import Header from './components/header/Header';
 import NavBar from "./components/navbar/NavBar";
 // Pages
-import AboutUs from "./scenes/about-us/AboutUs";
 import HomePage from "./scenes/homepage/HomePage";
-import Products from "./scenes/products/Products";
+import Product from "./scenes/product/Product";
 
 
 const App = () => {
-    const isDesktop = useMediaQuery({ minWidth: 992 })
+    // const isDesktop = useMediaQuery({ minWidth: 992 })
 
     return (
         <div>
             <BrowserRouter>
-                {isDesktop ? <Header/> : <NavBar/>}
+                {/*{isDesktop ? <Header/> : <NavBar/>}*/}
+                <Header/>
                 <Switch>
                     <Route path="/" exact component={HomePage}/>
-                    <Route path="/aboutus" component={AboutUs}/>
-                    <Route path="/products" component={Products}/>
+                    <Route path="/product/:name" component={Product}/>
                 </Switch>
             </BrowserRouter>
         </div>
