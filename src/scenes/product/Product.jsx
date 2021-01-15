@@ -1,12 +1,14 @@
 import React, {Component} from 'react';
+import {IoMdArrowDropdown, IoMdArrowDropright} from "react-icons/all";
 
 import './Product.scss';
 import Ong3 from '../../resources/images/ong_3.jpg';
 import Ong4 from '../../resources/images/ong_4.jpg';
 import Ong5 from '../../resources/images/ong_5.jpg';
-import {IoMdArrowDropdown, IoMdArrowDropright} from "react-icons/all";
 import OutlineButton from "../../components/button/OutlineButton";
 import Testimonial from "../../components/testimonial/Testimonial";
+import MultipleSlider from "../../components/slider/MultipleSlider";
+
 
 
 const product = {
@@ -53,15 +55,26 @@ class Product extends Component {
     }
 
     handleProductDetailClick = () => {
+
         this.setState({
             productDetailClicked: !this.state.productDetailClicked
         });
+        if(this.state.shippingPolicyClicked) {
+            this.setState({
+                shippingPolicyClicked: !this.state.shippingPolicyClicked
+            })
+        }
     }
 
     handleShippingPolicyClick = () => {
         this.setState({
             shippingPolicyClicked: !this.state.shippingPolicyClicked
         });
+        if(this.state.productDetailClicked) {
+            this.setState({
+                productDetailClicked: !this.state.productDetailClicked
+            })
+        }
     }
 
     showProductDetail = (productDetails) => {
@@ -111,23 +124,23 @@ class Product extends Component {
                                 {product.description}
                             </div>
                             <div className="product-detail-title">
-                                <a onClick={this.handleProductDetailClick}>
+                                <div onClick={this.handleProductDetailClick}>
                                     CHI TIẾT SẢN PHẨM
                                     {this.state.productDetailClicked ?
                                         <IoMdArrowDropdown/> : <IoMdArrowDropright/>
                                     }
-                                </a>
+                                </div>
                             </div>
                             {
                                 this.state.productDetailClicked ? this.showProductDetail(product.detail) : ""
                             }
                             <div className="product-detail-title">
-                                <a onClick={this.handleShippingPolicyClick}>
+                                <div onClick={this.handleShippingPolicyClick}>
                                     CHÍNH SÁCH VẬN CHUYỂN VÀ ĐỔI TRẢ
                                     {this.state.shippingPolicyClicked ?
                                         <IoMdArrowDropdown/> : <IoMdArrowDropright/>
                                     }
-                                </a>
+                                </div>
                             </div>
                             {
                                 this.state.shippingPolicyClicked ? this.showShippingPolicy(product.shippingPolicy) : ""
@@ -147,7 +160,12 @@ class Product extends Component {
                     <div>
                         <img src={Ong5} alt="hình"/>
                     </div>
-
+                    <div className="product-others">
+                        XEM THỬ CÁC SẢN PHẨM KHÁC NHÉ
+                    </div>
+                    <div className="product-slider">
+                        <MultipleSlider />
+                    </div>
                 </div>
             </React.Fragment>
         );

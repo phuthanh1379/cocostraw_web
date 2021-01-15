@@ -2,10 +2,11 @@
   display: block;
   width: 100%;
   //height: auto;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-image: url("../../resources/images/ong_1.jpg");
   min-height: 120vh;
+  background-color: #f5f5f5;
 
 }
 
@@ -43,8 +44,9 @@
     transition: all .25s ease;
 
 
-    a {
+    div {
       cursor: pointer;
+      text-decoration: none;
     }
 
     :hover {
@@ -63,11 +65,24 @@
   display: flex;
   align-items: center;
   padding: 24px 150px;
-  background: #1a83ff;
+  background: #f5f5f5;
 }
 
-.product img {
-  object-fit: contain;
-  width: 100vw;
-  height: auto;
+.product {
+  img {
+    object-fit: contain;
+    width: 100vw;
+    height: auto;
+  }
+
+  .product-others {
+    margin: 84px 0;
+    text-align: center;
+    font-size: 32px;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+
+  .product-slider {
+    justify-content: center;
+  }
 }

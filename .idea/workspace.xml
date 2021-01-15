@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1a388eb-3ce5-4bfc-8734-80909b39eb08" name="Default Changelist" comment="remove display flex in App.scss, change font size to 13px in Header.scss, install slick-carousel">
-      <change afterPath="$PROJECT_DIR$/src/components/button/OutlineButton.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/button/OutlineButton.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/testimonial/Testimonial.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/testimonial/Testimonial.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/images/ong_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/images/ong_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/images/ong_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/images/ong_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scenes/product/Product.scss" afterDir="false" />
+    <list default="true" id="c1a388eb-3ce5-4bfc-8734-80909b39eb08" name="Default Changelist" comment="product page, responsive in testimonial">
+      <change afterPath="$PROJECT_DIR$/src/components/card/simple_card/SimpleCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/card/simple_card/SimpleCard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/slider/MultipleSlider.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/slider/MultipleSlider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/SlideData.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/slider/SimpleSlider.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/slider/SimpleSlider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/images/hinh 1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/images/category/hinh_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/images/hinh 2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/images/category/hinh_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/images/hinh 3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/images/category/hinh_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scenes/homepage/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/homepage/HomePage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scenes/product/Product.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/product/Product.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scenes/product/Product.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/product/Product.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +50,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/resources/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/resources/images/category" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -57,6 +59,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/resources/images/category" />
       <recent name="$PROJECT_DIR$/src/resources/images" />
       <recent name="$PROJECT_DIR$/src/resources" />
     </key>
@@ -86,7 +89,8 @@
       <workItem from="1610594665502" duration="4067000" />
       <workItem from="1610627406317" duration="2238000" />
       <workItem from="1610645135039" duration="1093000" />
-      <workItem from="1610677149190" duration="21934000" />
+      <workItem from="1610677149190" duration="22905000" />
+      <workItem from="1610711333353" duration="9816000" />
     </task>
     <task id="LOCAL-00001" summary="remove display flex in App.scss, change font size to 13px in Header.scss, install slick-carousel">
       <created>1610679578841</created>
@@ -102,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610679794902</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="product page, responsive in testimonial">
+      <created>1610704580781</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610704580781</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +133,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="remove display flex in App.scss, change font size to 13px in Header.scss, install slick-carousel" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove display flex in App.scss, change font size to 13px in Header.scss, install slick-carousel" />
+    <MESSAGE value="product page, responsive in testimonial" />
+    <option name="LAST_COMMIT_MESSAGE" value="product page, responsive in testimonial" />
   </component>
 </project>
