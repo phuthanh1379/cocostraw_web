@@ -17,7 +17,6 @@ const App = () => {
     return (
         <div>
             <BrowserRouter>
-                {/*{isDesktop ? <Header/> : <NavBar/>}*/}
                 <Header/>
                 <Switch>
                     <Route path="/" exact component={HomePage}/>

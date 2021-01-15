@@ -1,0 +1,119 @@
+#homepage-content-title-1 {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    p {
+        font: 32px 'Roboto', sans-serif;
+        font-weight: bold;
+        line-height: 40px 40px 0px 40px;
+    }
+}
+
+#homepage-content-description-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p {
+        font: 16px 'Roboto', sans-serif;
+        font-weight: 500;
+        line-height: 25px;
+    }
+}
+
+.homepage-content-image {
+    background-image: url(../../resources/images/homepage/4-01.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-height: 17vh;
+    margin: 40px;
+}
+
+.homepage-content-image-lifestyle {
+    background-image: url(../../resources/images/homepage/7.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-height: 500px;
+    margin: 0;
+}
+
+#homepage-content-title-2 {
+    padding: 200px 0 90px 90px;
+
+    #hc-title-2-1{
+        font: 64px 'Montserrat', sans-serif;
+        font-weight: 400;
+    }
+
+    #hc-title-2-2{
+        font: 64px 'Montserrat', sans-serif;
+        font-weight: bold;
+    }
+}
+
+#homepage-content-description-2 {
+    padding-left: 90px;
+
+    p {
+        font: 16px 'Montserrat', sans-serif;
+        font-weight: 400;
+        line-height: 25px;
+        padding-bottom: 20px;
+    }
+}
+
+#homepage-content-signature {
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 90px;
+
+    img {
+        max-width: 400px;
+    }
+}
+
+.homepage-content-image-concept {
+    background-image: url(../../resources/images/homepage/8.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-height: 500px;
+    margin: 0;
+}
+
+#homepage-content-thankyou {
+    padding: 60px 90px 90px 90px;
+
+    p {
+        font: 16px 'Montserrat', sans-serif;
+        font-weight: 400;
+        line-height: 25px;
+        padding-bottom: 20px;
+    }
+
+    h4 {
+        font: 18px 'Montserrat', sans-serif;
+        font-weight: bold;
+        line-height: 25px;
+        padding-bottom: 20px;
+    }
+}
+
+#back-to-top-btn {
+    background-color: #86a746;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 90px;
+
+    label {
+        color: #fff;
+        font: 32px 'Montserrat', sans-serif;
+        font-weight: bold;
+        line-height: 25px;
+        cursor: pointer;
+        padding-right: 40px;
+    }
+}

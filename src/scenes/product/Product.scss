@@ -1,0 +1,49 @@
+.product {
+    padding: 0;
+    margin: 0;
+}
+
+.product-title {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    
+    h1 {
+        font: 32px 'Montserrat', sans-serif;
+        font-weight: bold;
+        line-height: 0px;
+    }
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+
+    .product-item {
+        padding: 50px 15px;
+
+        .product-image {
+            display: flex;
+            justify-content: center;
+            overflow: hidden;
+            border: 1px solid black;
+            margin-bottom: 15px;
+        }
+ 
+        img {
+            max-width: 180px;
+        }
+
+        img:hover {
+            cursor: pointer;
+            transform: scale(1.2, 1.2);
+            transition: all .5s ease;
+        }
+
+        h5 {
+            font: 16px 'Montserrat', sans-serif;
+            font-weight: 400;
+        }
+    }
+}

@@ -1,12 +1,13 @@
 import React from 'react';
-import {Link} from "react-router-dom";
+import {Link} from "react-scroll";
+import {Link as LinkRouter} from "react-router-dom";
 
 import './Header.scss';
 import logo from '../../resources/images/logo/logo.png';
 
-const Header1 = () => {
+const Header = () => {
     return (
-        <div className="header">
+        <div id="header">
             <div className="container">
                 <div className="menu-logo">
                     <Link to="/">
@@ -16,17 +17,17 @@ const Header1 = () => {
                 <div className="menu">
                     <ul>
                         <li>
-                            <Link to="/" className="menu-item">
+                            <LinkRouter to="/" className="menu-item">
                                 TRANG CHỦ    
-                            </Link>    
+                            </LinkRouter>
                         </li>
                         <li>
-                            <Link to="/products" className="menu-item">
+                            <Link to="homepage-product" className="menu-item">
                                 SẢN PHẨM
                             </Link>    
                         </li>
                         <li>
-                            <Link to="/aboutus" className="menu-item">
+                            <Link to="about-us" className="menu-item">
                                 VỀ CHÚNG TÔI
                             </Link>
                         </li>
@@ -37,4 +38,4 @@ const Header1 = () => {
     );
 };
 
-export default Header1;
+export default Header;
