@@ -16,40 +16,39 @@ export default class HomepageSlider extends Component {
       autoPlay: true
     };
     return (
-        <div className="slider">
+        <div className="homepage-slider">
           <Slider {...settings}>
             <div className="slider-item" id="slider-item-1">
               <div className="slider-title">
-                <h3>SMALL SOLUTIONS,</h3>
-                <h3>BIG IMPACT</h3>
+                <h3>VÌ CUỘC SỐNG</h3>
+                <h3>BỀN VỮNG</h3>
               </div>
               <div className="slider-description">
-                <h5>Products that are 100% natural, plastic-free,</h5>
-                <h5>chemical-free &amp; biodegradable and compostable in</h5>
-                <h5>ANY environment</h5>
+                <h5>Sản phẩm được làm từ các nguyên liệu tự nhiên,</h5>
+                <h5>hoàn toàn thân thiện với môi trường và tự phân hủy</h5>
+                <h5>dưới BẤT KỂ điều kiện môi trường.</h5>
               </div>
             </div>
             <div className="slider-item" id="slider-item-2">
               <div className="slider-title">
-                <h3>SIP AND SLURP</h3>
-                <h3>SUSTAINABILITY</h3>
+                <h3>HÀNH ĐỘNG NHỎ</h3>
+                <h3>HIỆU QUẢ CAO</h3>
               </div>
               <div className="slider-description">
-                <h5>Products that are 100% natural, plastic-free,</h5>
-                <h5>chemical-free &amp; biodegradable and compostable in</h5>
-                <h5>ANY environment</h5>
+                <h5>Tuy cùng một mục đích sử dụng, nhưng hệ quả để lại</h5>
+                <h5>có cùng mức độ tác động ngang nhau.</h5>
               </div>
             </div>
             <div className="slider-item" id="slider-item-3">
               <div className="slider-title">
-                <h3>COMMONPLACE</h3>
-                <h3>SUSTAINABLE</h3>
-                <h3>LIVING</h3>
+                <h3>YÊU THIÊN NHIÊN</h3>
+                <h3>CŨNG LÀ YÊU LẤY</h3>
+                <h3>CHÍNH MÌNH</h3>
               </div>
               <div className="slider-description">
-                <h5>Products that are 100% natural, plastic-free,</h5>
-                <h5>chemical-free &amp; biodegradable and compostable in</h5>
-                <h5>ANY environment</h5>
+                <h5>Cùng với tất cả những lợi ích về mặt tinh thần của việc</h5>
+                <h5>dành thười gian hòa mình vào thiên nhiên, cũng là một</h5>
+                <h5>cách tuyệt vời để duy trì sức khỏe thể chất.</h5>
               </div>
             </div>
           </Slider>

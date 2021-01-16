@@ -1,0 +1,30 @@
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  .slider-container {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 18px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .multiple-slider-image {
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .multiple-slider-name {
+    margin: 24px 0;
+    font-size: 16px;
+    min-width: 0;
+  }
+}

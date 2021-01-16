@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import {Link} from "react-scroll";
 
 import './HomepageContent.scss'
-import Product from "../product/Product";
+import ProductShowcase from "../product/ProductShowcase";
 import AboutUs from "../about-us/AboutUs";
 //Image
 import signature from "../../resources/images/homepage/5-01-01.png";
@@ -20,7 +20,7 @@ export default class HomepageContent extends Component {
                 <p>từng chút một.</p>
             </div>
             <div className="homepage-content-image"/>
-            <Product/>
+            <ProductShowcase/>
             <div className="homepage-content-image-lifestyle"/>
             <div id="homepage-content-title-2">
                 <h3 id="hc-title-2-1">Với lý tưởng</h3>

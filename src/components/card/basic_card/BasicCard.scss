@@ -1,0 +1,66 @@
+.slider-bg {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.slider-bg img {
+    width: 100%;
+    height: 100%;
+}
+
+/*- Card container -*/
+.basic-card-container {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    max-width: 100%;
+    height: 100%;
+    transition: all 0.6s ease 0.1s;
+}
+
+/*- Card body -*/
+.card-body {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all .7s linear;
+}
+
+/*- Card sides -*/
+.card-side {
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    color: #212121;
+    background-color: #fff;
+    backface-visibility: hidden;
+    box-shadow: 0 10px 35px rgba(50,50,93,.1),0 2px 15px rgba(0,0,0,.07);
+}
+
+/*- Frontside -*/
+.side-front [class^=col-xs]:first-of-type {
+    padding-left: 0;
+}
+ 
+.side-front-content {
+    padding-top: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+}
+
+#btn-left {
+    color: black;
+    float: left;
+    margin-left: 200px;
+}
+
+#btn-right {
+    color: red;
+    float: right;
+    margin-right: 200px;
+}
