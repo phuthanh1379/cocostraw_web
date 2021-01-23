@@ -1,9 +1,13 @@
 import React from 'react';
-import {Link} from "react-scroll";
+import {Link, animateScroll as scroll} from "react-scroll";
 import {Link as LinkRouter} from "react-router-dom";
 
 import './Header.scss';
 import logo from '../../resources/images/logo/logo.png';
+
+const scrollMore = () => {
+    scroll.scrollMore(150);
+}
 
 const Header = () => {
     return (
@@ -22,12 +26,12 @@ const Header = () => {
                             </LinkRouter>
                         </li>
                         <li>
-                            <Link to="homepage-product" className="menu-item">
+                            <Link to="homepage-product" className="menu-item" spy={true} smooth={true} offset={-200}>
                                 SẢN PHẨM
                             </Link>    
                         </li>
                         <li>
-                            <Link to="about-us" className="menu-item">
+                            <Link to="about-us" className="menu-item" spy={true} smooth={true}>
                                 VỀ CHÚNG TÔI
                             </Link>
                         </li>

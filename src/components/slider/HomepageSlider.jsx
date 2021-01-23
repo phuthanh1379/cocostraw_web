@@ -47,7 +47,7 @@ export default class HomepageSlider extends Component {
               </div>
               <div className="slider-description">
                 <h5>Cùng với tất cả những lợi ích về mặt tinh thần của việc</h5>
-                <h5>dành thười gian hòa mình vào thiên nhiên, cũng là một</h5>
+                <h5>dành thời gian hòa mình vào thiên nhiên, cũng là một</h5>
                 <h5>cách tuyệt vời để duy trì sức khỏe thể chất.</h5>
               </div>
             </div>
