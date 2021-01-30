@@ -11,14 +11,6 @@ export default class HomepageContent extends Component {
   render() {
     return (
         <div className="homepage-content">
-            <div id="homepage-content-title-1">
-                <p>COMMONPLACE SUSTAINABLE LIVING</p>
-            </div>
-            <div id="homepage-content-description-1">
-                <p>Môi trường rất quan trọng với chúng ta. Hãy bảo vệ chúng, đồng thời cải thiện hệ sinh thái</p>
-                <p>bằng các sản phẩm đột phá tuyệt vời này, bắt đầu từ việc thay đổi thói quen hằng ngày</p>
-                <p>từng chút một.</p>
-            </div>
             <div className="homepage-content-image"/>
             <ProductShowcase/>
             <div className="homepage-content-image-lifestyle"/>

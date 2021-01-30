@@ -1,6 +1,5 @@
-import React from 'react';
+import {React, useRef, useLayoutEffect} from 'react';
 import {Route, BrowserRouter, Switch} from "react-router-dom";
-import {useMediaQuery} from "react-responsive/src";
 
 import './App.scss';
 // Components
@@ -11,12 +10,11 @@ import HomePage from "./scenes/homepage/HomePage";
 import Product from "./scenes/product/Product";
 import ScrollToTop from "./components/scrollToTop/ScrollToTop";
 
-
 const App = () => {
     // const isDesktop = useMediaQuery({ minWidth: 992 })
 
     return (
-        <div>
+        <div className="app-class">
             <BrowserRouter>
                 <ScrollToTop/>
                 {/*{isDesktop ? <Header/> : <NavBar/>}*/}
