@@ -30,7 +30,7 @@ const Header = () => {
                         </Link>    
                     </li>
                     <li>
-                        <Link to="about-us" className="menu-item" spy={true} smooth={true}>
+                        <Link to="homepage-content-title-3" className="menu-item" spy={true} smooth={true} offset={-180}>
                             VỀ CHÚNG TÔI
                         </Link>
                     </li>
