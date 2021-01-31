@@ -3,7 +3,7 @@ import {Link, animateScroll as scroll} from "react-scroll";
 import {Link as LinkRouter} from "react-router-dom";
 
 import './Header.scss';
-import logo from '../../resources/images/logo/logo.png';
+import logo from '../../resources/images/logo/logo_mini.png';
 
 const scrollMore = () => {
     scroll.scrollMore(150);
@@ -20,7 +20,7 @@ const Header = () => {
             <div className="menu">
                 <ul>
                     <li>
-                        <LinkRouter to="/" className="menu-item">
+                        <LinkRouter to="/" onClick={() => scroll.scrollToTop()} className="menu-item">
                             TRANG CHỦ    
                         </LinkRouter>
                     </li>

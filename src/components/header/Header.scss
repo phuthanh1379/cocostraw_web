@@ -1,75 +1,75 @@
 .container {
   background-color: white;
-  height: 130px;
   top: 0;
   z-index: 99;
   width: 98.5%;
   display: inline-flex;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: space-between;
   position: fixed;
-  box-shadow: 5px 10px 20px #b5b5b5;
+  box-shadow: 0px 3px 2px -2px #b5b5b5;  
+  // border-bottom: 2px solid #465724;
+}
 
-  .menu-logo {
+.menu-logo {
+  // flex: 2;
+  // display: flex;
+  // align-items: center;
+  // flex: 0 0 50%;
+  padding: 10px 0 10px 150px;
 
-    flex: 2;
+  img {
+    margin-top: 10px;
+    height: 70px;
+    background-color: transparent;
+  }
+
+  img:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: all .25s ease;
+  }
+}
+
+.menu {
+  // flex: 0 0 50%;
+  height: auto;
+  position: sticky;
+  position: -webkit-sticky;
+
+  ul {
+    height: 100%;
+    list-style: none;
     display: flex;
+    justify-content: flex-end;
     align-items: center;
 
-    img {
-      margin-top: 10px;
-      height: 70px;
-      background-color: transparent;
-	}
-    img:hover {
-      opacity: 0.7;
-      transition: all .25s ease;
+    li {
+      font-size: 1rem;
+      margin: 0 16px;
     }
   }
 
-  .menu {
-    flex: 1;
-    width: 100vh;
-    height: 100%;
-    align-items: center;
-    position: sticky;
-    position: -webkit-sticky;
-
-    ul {
-      height: 100%;
-      list-style: none;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
-      li {
-        font-size: 1rem;
-        margin: 0 16px;
-      }
-    }
-
-    .menu-item {
-      color: #86a746;
-      display: block;
-      font: 13px/20px 'Montserrat', sans-serif;
-      text-align: center;
-      text-decoration: none;
-      -webkit-transition: all .25s ease;
-      -moz-transition: all .25s ease;
-      -ms-transition: all .25s ease;
-      -o-transition: all .25s ease;
-      transition: all .25s ease;
-      padding: 0;
-      margin: 0px 25px 0 25px;
-      font-weight: bold;
-      cursor: pointer;
-    }
-    .menu-item:hover {
-      text-decoration: dashed;
-      color: #465724;
-      // border-bottom: 3px solid #465724;
-      // font-size: x-large;
-    }
+  .menu-item {
+    color: #86a746;
+    display: block;
+    font: 17px 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+    padding: 0;
+    margin: 0px 25px 0 25px;
+    cursor: pointer;
+  }
+  .menu-item:hover {
+    text-decoration: dashed;
+    color: #465724;
+    // border-bottom: 3px solid #465724;
+    // font-size: x-large;
   }
 }

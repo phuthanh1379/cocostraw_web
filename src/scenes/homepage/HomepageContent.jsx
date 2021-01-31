@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {Link} from "react-scroll";
+import {Link, animateScroll as scroll } from "react-scroll";
 
 import './HomepageContent.scss'
 import ProductShowcase from "../product/ProductShowcase";
@@ -44,9 +44,9 @@ export default class HomepageContent extends Component {
             </div>
             <AboutUs/>
             <div id="back-to-top-btn">
-              <Link to="header">
+              <div onClick={() => scroll.scrollToTop()}>
                 <label>&uarr; BACK TO TOP</label>
-              </Link>
+              </div>
             </div>
         </div>
     );
