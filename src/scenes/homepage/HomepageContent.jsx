@@ -9,7 +9,13 @@ export default class HomepageContent extends Component {
   render() {
     return (
         <div className="homepage-content">
-            <div className="homepage-content-image"/>
+            <div id="homepage-content-title-1">
+              <h3>VÌ LÝ TƯỞNG SỐNG LÀNH MẠNH</h3>
+            </div>
+            <div id="homepage-content-description-1">
+              <p>Sau khi trải nghiệm những món đồ uống bạn yêu thích với chiếc ống hút nước dừa bé xinh này, có thể bạn sẽ cảm thấy mình gần với thiên nhiên hơn bao giờ hết. </p>
+            </div>
+            {/* <div className="homepage-content-image"/> */}
             <ProductShowcase/>
             <div className="homepage-content-image-lifestyle"/>
             <div id="homepage-content-title-2">
