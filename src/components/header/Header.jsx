@@ -5,16 +5,12 @@ import {Link as LinkRouter} from "react-router-dom";
 import './Header.scss';
 import logo from '../../resources/images/logo/logo_mini.png';
 
-const scrollMore = () => {
-    scroll.scrollMore(150);
-}
-
 const Header = () => {
     return (
         <div className="container" id="header">
             <div className="menu-logo">
                 <Link to="/">
-                    <img src={logo}/>
+                    <img src={logo} alt="logo"/>
                 </Link>
             </div>
             <div className="menu">

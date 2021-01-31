@@ -18,7 +18,7 @@ class ProductShowcase extends Component {
                     <div className="product-item" id="product-1" alt="hinh_sp_1">
                         <Link to="/product/1">
                             <div className="product-image">
-                                <img src={img1}/>
+                                <img src={img1} alt="img1"/>
                             </div>
                         </Link>
                         <h5>COCOSTRAWS 20 ỐNG</h5>
@@ -27,7 +27,7 @@ class ProductShowcase extends Component {
                     <div className="product-item" id="product-2" alt="hinh_sp_2">
                         <Link to="/product/2">
                             <div className="product-image">
-                                <img src={img2}/>
+                                <img src={img2} alt="img2"/>
                             </div>
                         </Link>
                         <h5>COCOSTRAWS CHO</h5>
@@ -36,7 +36,7 @@ class ProductShowcase extends Component {
                     <div className="product-item" id="product-3" alt="hinh_sp_3">
                         <Link to="/product/3">
                             <div className="product-image">
-                                <img src={img3}/>
+                                <img src={img3} alt="img3"/>
                             </div>
                         </Link>
                         <h5>COCOSTRAWS 50 ỐNG</h5>

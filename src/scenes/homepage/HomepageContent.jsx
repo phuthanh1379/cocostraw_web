@@ -1,11 +1,9 @@
 import React, { Component } from "react";
-import {Link, animateScroll as scroll } from "react-scroll";
+import {animateScroll as scroll } from "react-scroll";
 
 import './HomepageContent.scss'
 import ProductShowcase from "../product/ProductShowcase";
 import AboutUs from "../about-us/AboutUs";
-//Image
-import signature from "../../resources/images/homepage/5-01-01.png";
 
 export default class HomepageContent extends Component {
   render() {

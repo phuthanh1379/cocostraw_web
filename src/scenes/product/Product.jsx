@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {IoMdArrowDropdown, IoMdArrowDropright, IoMdArrowDropup} from "react-icons/all";
-import {Link, animateScroll as scroll } from "react-scroll";
+import {animateScroll as scroll } from "react-scroll";
 
 import './Product.scss';
 import OngTwenty1 from '../../resources/images/products/twenty_ong/1.jpg';
@@ -18,11 +18,8 @@ import Cocktail3 from '../../resources/images/products/cocktail/3.jpg';
 import Cocktail4 from '../../resources/images/products/cocktail/4.jpg';
 import Cocktail5 from '../../resources/images/products/cocktail/5.jpg';
 
-import OutlineButton from "../../components/button/OutlineButton";
 import Testimonial from "../../components/testimonial/Testimonial";
 import MultipleSlider from "../../components/slider/MultipleSlider";
-import Modal from "../../components/modal/Modal";
-
 
 const products = [
     {
@@ -127,14 +124,6 @@ const testimonial = {
 }
 
 class Product extends Component {
-    product;
-
-    constructor(props) {
-        super(props);
-
-    }
-
-
     state = {
         productDetailClicked: false,
         shippingPolicyClicked: false,
