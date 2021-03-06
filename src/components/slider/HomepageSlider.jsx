@@ -13,8 +13,9 @@ export default class HomepageSlider extends Component {
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
-      autoPlay: true
+      autoPlay: true,
     };
+    
     return (
         <div className="homepage-slider">
           <Slider {...settings}>

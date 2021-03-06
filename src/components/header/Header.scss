@@ -2,7 +2,8 @@
   background-color: white;
   top: 0;
   z-index: 99;
-  width: 98.5%;
+  width: calc(100% - 20px);
+  height: 12vh;
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
@@ -15,12 +16,13 @@
   // flex: 2;
   // display: flex;
   // align-items: center;
-  // flex: 0 0 50%;
+    // flex: 0 0 50%;
+  height: 100%;
   padding: 10px 0 10px 150px;
 
   img {
-    margin-top: 10px;
-    height: 70px;
+    object-fit: cover;
+    height: 100%;
     background-color: transparent;
   }
 

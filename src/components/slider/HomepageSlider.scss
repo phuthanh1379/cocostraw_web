@@ -146,20 +146,23 @@
 }
 
 .slick-arrow {
-    background-color: grey;
-    /* color: black; */
+    height: 100%;
+    width: 5%;
+    text-align: center;
 }
 
 .slick-arrow:hover {
-    background-color: grey;
+    background-color: rgba(200, 200, 200, 0.25);
+    transition: all 300ms ease-in;
 }
 
-/* .slick-prev {
-    z-index: 100;
-    left: 20px !important;
+.slick-prev {
+    z-index: 98;
+    left: 0px !important;
 }
+
 .slick-next {
-    z-index: 100;
-    right: 20px !important;
-} */
+    z-index: 98;
+    right: 0px !important;
+}
   

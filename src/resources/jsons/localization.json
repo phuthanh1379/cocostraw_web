@@ -1,0 +1,253 @@
+{
+    "logo": {
+        "web": "%PUBLIC_URL%/logo_web.png",
+        "header": "../../resources/images/logo/logo_mini.png",
+        "homepage": "../../resources/images/logo/logo_1.png",
+        "company_name": "../../resources/images/homepage/company-name.png"
+    },
+    "header": {
+        "homepage": [
+            {
+                "lang": "en",
+                "content": "Homepage"
+            },
+            {
+                "lang": "vi",
+                "content": "Trang chủ"
+            }
+        ],
+        "product": [
+            {
+                "lang": "en",
+                "content": "Products"
+            },
+            {
+                "lang": "vi",
+                "content": "Sản phẩm"
+            }
+        ],
+        "about_us": [
+            {
+                "lang": "en",
+                "content": "About Us"
+            },
+            {
+                "lang": "vi",
+                "content": "Về chúng tôi"
+            }
+        ]
+    },
+    "homepage_slider": [
+        {
+            "image_url": "../../resources/images/sliders/1.jpg",
+            "content": [
+                {
+                    "lang": "en",
+                    "title": "For a stable life",
+                    "content": "Products are made of natural materials, completely nature-friendly and dissolvable under ANY environmental conditions."
+                },
+                {
+                    "lang": "vi",
+                    "title": "Vì cuộc sống bền vững",
+                    "content": "Sản phẩm được làm từ các nguyên liệu tự nhiên, hoàn toàn thân thiện với môi trường và tự phân hủy BẤT KỂ điều kiện môi trường."
+                }
+            ]
+        },
+        {
+            "image_url": "../../resources/images/sliders/2.jpg",
+            "content": [
+                {
+                    "lang": "en",
+                    "title": "Small action, big reaction",
+                    "content": "Products are made of natural materials, completely nature-friendly and dissolvable under ANY environmental conditions."
+                },
+                {
+                    "lang": "vi",
+                    "title": "Hành động nhỏ hiệu quả cao",
+                    "content": "Tuy cùng một mục đích sử dụng, nhưng hệ quả để lại có cùng mức độ tác động ngang nhau."
+                }
+            ]
+        },
+        {
+            "image_url": "../../resources/images/sliders/3.jpg",
+            "content": [
+                {
+                    "lang": "en",
+                    "title": "Love nature, love yourself",
+                    "content": "Products are made of natural materials, completely nature-friendly and dissolvable under ANY environmental conditions."
+                },
+                {
+                    "lang": "vi",
+                    "title": "Yêu thiên nhiên cũng là yêu lấy chính mình",
+                    "content": "Cùng với tất cả những lợi ích về mặt tinh thần của việc dành thời gian hòa mình vào thiên nhiên, cũng là một cách tuyệt vời để duy trì sức khỏe thể chất."
+                }
+            ]
+        }
+    ],
+    "homepage_content": [
+        {
+            "image_url" : "../../resources/images/homepage/icon-01.png",
+            "content": [
+                {
+                    "lang": "en",
+                    "title": "For a healthy lifestyle",
+                    "content": "After experiencing your favorite drinks with these little coconut-straws, you may find yourself close to nature more than ever."
+                },
+                {
+                    "lang": "vi",
+                    "title": "Vì lý tưởng sống lành mạnh",
+                    "content": "Sau khi trải nghiệm những món đồ uống bạn yêu thích với chiếc ống hút nước dừa bé xinh này, có thể bạn sẽ cảm thấy mình gần với thiên nhiên hơn bao giờ hết."
+                }
+            ]
+        },
+        {
+            "image_url" : "../../resources/images/homepage/7.jpg",
+            "content": [
+                {
+                    "lang": "en",
+                    "title_1": "Help constructing",
+                    "title_2": "A stable life",
+                    "content": "The environment is very important to us. Protect it, and improve the ecosystem with this innovative product!"
+                },
+                {
+                    "lang": "vi",
+                    "title_1": "Với lý tưởng",
+                    "title_2": "Cuộc sống bền vững",
+                    "content": "Môi trường rất quan trọng với chúng ta. Hãy bảo vệ chúng, đồng thời cải thiện hệ sinh thái bằng sản phẩm đột phá tuyệt vời này!"
+                }
+            ]
+        },
+        {
+            "image_url" : "../../resources/images/homepage/6-non-grid.png",
+            "content": [
+                {
+                    "lang": "en",
+                    "title": "What makes Ecolife's product special?",
+                    "content": [
+                        {
+                            "content": "Hẳn bạn đang rất ngạc nhiên, làm sao nguyên liệu ở thể lỏng lại có thể thành hình cứng cáp, bền bỉ trong ly cà phê đá ở các cuộc họp kéo dài 4-5 giờ đồng hồ liên tục như vậy. Để tìm ra ma thuật thực tế này, một tiến sĩ Việt Nam đã dành 12 giờ mỗi ngày, 6 ngày một tuần, liên tục trong 2 năm để nghiên cứu ra phương pháp điều chế đặc biệt này và hoàn toàn thuận theo tự nhiên. Nếu có cơ hội bạn hãy nên tự trải nghiệm thử chiếc ống hút từ nước dừa này với nhiều loại đồ uống khác nhau như các món đá xay, ca cao nóng hoặc cháy rừng rực như B52, bạn sẽ đập tan nghi ngờ về chất lượng của chiếc ống hút nhỏ mà có võ này."
+                        },
+                        {
+                            "content": "Nhưng điều thật sự khiến chúng tôi lo lắng là những sản phẩm từ thiên nhiên sẽ có giá thành cao hơn sản phẩm nhân tạo. Điều này hoàn toàn đúng. Ecolife tin rằng Cocostraws có chất lượng trải nghiệm tương xứng với trị giá gấp 1,5 lần hiện kim và đặc biệt an toàn cho sức khoẻ và hoàn toàn phù hợp với cả gia đ ình có trẻ nhỏ. Môi trường rất quan trọng với chúng ta. Hãy bảo vệ chúng, đồng thời cải thiện hệ sinh thái bằng sản phẩm đột phá tuyệt vời này! Sau khi trải nghiệm rất nhiều đồ uống với sản phẩm này này, bạn sẽ dần nhận ra thế giới đang chuyển mình hòa nhập với cuộc sống bền vững."
+                        },
+                        {
+                            "content": "Môi trường rất quan trọng với chúng ta, hãy bảo vệ nó, đồng thời cải thiện hệ sinh thái bằng sản phẩm đột phá tuyệt vời này! Sau khi trải nghiệm những món đồ uống bạn yêu thích với chiếc ống hút nước dừa bé xinh này, có thể bạn sẽ cảm thấy mình gần với thiên nhiên hơn bao giờ hết."
+                        }
+                    ]
+                },
+                {
+                    "lang": "vi",
+                    "title": "Sản phẩm của Ecolife có gì độc đáo",
+                    "content": [
+                        {
+                            "content": "Hẳn bạn đang rất ngạc nhiên, làm sao nguyên liệu ở thể lỏng lại có thể thành hình cứng cáp, bền bỉ trong ly cà phê đá ở các cuộc họp kéo dài 4-5 giờ đồng hồ liên tục như vậy. Để tìm ra ma thuật thực tế này, một tiến sĩ Việt Nam đã dành 12 giờ mỗi ngày, 6 ngày một tuần, liên tục trong 2 năm để nghiên cứu ra phương pháp điều chế đặc biệt này và hoàn toàn thuận theo tự nhiên. Nếu có cơ hội bạn hãy nên tự trải nghiệm thử chiếc ống hút từ nước dừa này với nhiều loại đồ uống khác nhau như các món đá xay, ca cao nóng hoặc cháy rừng rực như B52, bạn sẽ đập tan nghi ngờ về chất lượng của chiếc ống hút nhỏ mà có võ này."
+                        },
+                        {
+                            "content": "Nhưng điều thật sự khiến chúng tôi lo lắng là những sản phẩm từ thiên nhiên sẽ có giá thành cao hơn sản phẩm nhân tạo. Điều này hoàn toàn đúng. Ecolife tin rằng Cocostraws có chất lượng trải nghiệm tương xứng với trị giá gấp 1,5 lần hiện kim và đặc biệt an toàn cho sức khoẻ và hoàn toàn phù hợp với cả gia đ ình có trẻ nhỏ. Môi trường rất quan trọng với chúng ta. Hãy bảo vệ chúng, đồng thời cải thiện hệ sinh thái bằng sản phẩm đột phá tuyệt vời này! Sau khi trải nghiệm rất nhiều đồ uống với sản phẩm này này, bạn sẽ dần nhận ra thế giới đang chuyển mình hòa nhập với cuộc sống bền vững."
+                        },
+                        {
+                            "content": "Môi trường rất quan trọng với chúng ta, hãy bảo vệ nó, đồng thời cải thiện hệ sinh thái bằng sản phẩm đột phá tuyệt vời này! Sau khi trải nghiệm những món đồ uống bạn yêu thích với chiếc ống hút nước dừa bé xinh này, có thể bạn sẽ cảm thấy mình gần với thiên nhiên hơn bao giờ hết."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "image_url": "../../resources/images/homepage/8.png",
+            "content": [
+                {
+                    "lang": "en",
+                    "content_1": "Thank you for believing and choosing us among other products with the same purpose of protecting Mother Nature. If you have any constructive ideas to improve our environment please contact us for a date ;)",
+                    "content_2": "Do not hesitate to connect with us"
+                },
+                {
+                    "lang": "vi",
+                    "content_1": "Cảm ơn bạn đã lựa chọn chúng tôi trong rất nhiều sản phẩm chất lượng cùng mục đích bảo vệ Mẹ Thiên Nhiên. Nếu bạn có ý tưởng xây dựng nào để cải thiện môi trường thì cho Ecolife một cuộc hẹn nhé ;)",
+                    "content_2": "Đừng ngại ngần kết nối với chúng tôi"
+                }
+            ]
+        }
+    ],
+    "product_showcase": {
+        "title": [
+            {
+                "lang": "en",
+                "text": "Products category"
+            },
+            {
+                "lang": "vi",
+                "text": "Danh mục sản phẩm"
+            }
+        ],
+        "products": [
+            {
+                "image_url": "../../resources/images/category/hinh_1.jpg",
+                "content": [
+                    {
+                        "lang": "en",
+                        "title": "Cocostraws 20 friendly straws"
+                    },
+                    {
+                        "lang": "vi",
+                        "title": "Cocostraws 20 ống thân thiện"
+                    }
+                ]
+            },
+            {
+                "image_url": "../../resources/images/category/hinh_2.jpg",
+                "content": [
+                    {
+                        "lang": "en",
+                        "title": "Cocostraws for cocktail"
+                    },
+                    {
+                        "lang": "vi",
+                        "title": "Cocostraws cho cocktail"
+                    }
+                ]
+            },
+            {
+                "image_url": "../../resources/images/category/hinh_3.jpg",
+                "content": [
+                    {
+                        "lang": "en",
+                        "title": "Cocostraws 50 budget straws"
+                    },
+                    {
+                        "lang": "vi",
+                        "title": "Cocostraws 50 ống tiết kiệm"
+                    }
+                ]
+            }
+        ]
+    },
+    "about_us": {
+        "email": {
+            "title": "Email",
+            "content": "cocostraw@ecolifebio.com"
+        },
+        "phone": {
+            "title": [
+                {
+                    "lang": "en",
+                    "title": "Phone"
+                },
+                {
+                    "lang": "vi",
+                    "title": "Điện thoại"
+                }
+            ],
+            "content": "+84 972 702 927"
+        },
+        "work_hour": [
+            {
+                "lang": "en",
+                "title": "We work from Monday to Friday, 9:30am to 5:30pm"
+            },
+            {
+                "lang": "vi",
+                "title": "Chúng tôi làm việc từ thứ 2 đến thứ 6, 9:30am - 5:00pm"
+            }
+        ]
+    }
+}
