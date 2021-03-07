@@ -254,7 +254,7 @@ class Product extends Component {
                     </div>
                     <div className="back-to-home">
                         <button onClick={() => this.props.history.push("/")}>
-                            VỀ TRANG CHỦ
+                            Về trang chủ
                         </button>
                     </div>
                     <div className="back-to-top" onClick={() => scroll.scrollToTop()}>
