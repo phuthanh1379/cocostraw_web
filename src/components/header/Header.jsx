@@ -17,21 +17,15 @@ const Header = () => {
             </div>
             <div className="menu-container">
                 <ul className="menu">
-                    <li className="menu-item">
-                        <LinkRouter to="/" onClick={() => scroll.scrollToTop()} id="link-router">
-                            TRANG CHỦ    
-                        </LinkRouter>
-                    </li>
-                    <li className="menu-item">
-                        <Link to="homepage-product" spy={true} smooth={true} offset={-200}>
-                            SẢN PHẨM
-                        </Link>    
-                    </li>
-                    <li className="menu-item">
-                        <Link to="homepage-content-title-3" spy={true} smooth={true} offset={-180}>
-                            VỀ CHÚNG TÔI
-                        </Link>
-                    </li>
+                    <LinkRouter to="/" onClick={() => scroll.scrollToTop()} id="link-router" className="menu-item">
+                        <li>TRANG CHỦ</li>
+                    </LinkRouter>
+                    <Link to="homepage-product" spy={true} smooth={true} offset={-200} className="menu-item">
+                        <li>SẢN PHẨM</li>
+                    </Link>
+                    <Link to="homepage-content-title-3" spy={true} smooth={true} offset={-100} className="menu-item">
+                        <li>VỀ CHÚNG TÔI</li>
+                    </Link>
                 </ul>
             </div>
         </div>
