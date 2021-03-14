@@ -21,7 +21,7 @@ const App = () => {
                     <Route path="/product/:name" render={(props) => <Product {...props} />} />
                 </Switch>
                 <MessengerCustomerChat
-                    pageId="944516855575691" appId="app ID"
+                    pageId="944516855575691" appId="261472918770914"
                 />
             </BrowserRouter>
         </div>
