@@ -21,7 +21,7 @@ export default class HomepageContent extends Component {
         </div>
         <div className="homepage-content-image" />
         <ProductShowcase />
-        <div className="homepage-content-image-lifestyle"/>
+        <div className="homepage-content-image-lifestyle" />
         <div id="homepage-content-title-2">
           <h3 id="hc-title-2-1">Với lý tưởng</h3>
           <div id="hc-title-2-2">
@@ -36,7 +36,7 @@ export default class HomepageContent extends Component {
         </div>
         <div className="web-logo" />
         <div id="homepage-content-title-3">
-          <h3>SẢN PHẨM CỦA ECOLIFE CÓ GÌ ĐỘC ĐÁO</h3>
+          <h3>SẢN PHẨM CỦA ECOLIFE <br /> CÓ GÌ ĐỘC ĐÁO</h3>
         </div>
         <div id="homepage-content-description-3">
           <p className="first-paragraph" id="homepage-grid-content-1">

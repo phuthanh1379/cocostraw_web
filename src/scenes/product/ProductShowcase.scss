@@ -14,6 +14,7 @@
         font: 32px 'Montserrat', sans-serif;
         font-weight: bold;
         line-height: 0px;
+        color: #2E8b57;
     }
 }
 
@@ -28,7 +29,6 @@
             display: flex;
             justify-content: center;
             overflow: hidden;
-            border: 1px solid black;
             margin-bottom: 15px;
         }
  
@@ -45,6 +45,16 @@
         h5 {
             font: 16px 'Montserrat', sans-serif;
             font-weight: 400;
+            color: #2E8b57;
+            cursor: pointer;
+        }
+
+        h5:hover {
+            color: #465724;
+        }
+
+        .link-class {
+            text-decoration: none;
         }
     }
 }
