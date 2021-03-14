@@ -1,16 +1,18 @@
-import React from 'react';
-import {Link, animateScroll as scroll} from "react-scroll";
-import {Link as LinkRouter} from "react-router-dom";
+import React from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
+import { Link as LinkRouter } from "react-router-dom";
 
-import './Header.scss';
-import logo from '../../resources/images/logo/logo_mini.png';
+import "./Header.scss";
+// import logo from "../../resources/images/logo/logo_mini.png";
+import { ReactComponent as Logo } from "../../resources/images/logo/logo_12.svg";
 
 const Header = () => {
     return (
         <div className="container" id="header">
             <div className="menu-logo">
                 <LinkRouter to="/" onClick={() => scroll.scrollToTop()}>
-                    <img src={logo} alt="logo"/>
+                    {/* <img src={logo} alt="logo"/> */}
+                    <Logo className="menu-logo-logo" />
                 </LinkRouter>
             </div>
             <div className="menu-container">
@@ -36,28 +38,3 @@ const Header = () => {
     );
 };
 export default Header;
-
-// import React from "react";
-
-// import "./Header.scss";
-
-// import Logo from "../../resources/images/logo/logo_mini.png";
-
-// const Header = () => {
-//   return (
-//     <div className="header">
-//       <div className="header__logo-container">
-//         <img className="header__logo" src={Logo} alt="header logo" />
-//       </div>
-//       <div className="header__list-container">
-//         <ul className="header__list">
-//           <li>TRANG CHỦ</li>
-//           <li>SẢN PHẨM</li>
-//           <li>VỀ CHÚNG TÔI</li>
-//         </ul>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Header;
