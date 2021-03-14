@@ -4,6 +4,7 @@ import "./HomepageContent.scss";
 import ProductShowcase from "../product/ProductShowcase";
 import AboutUs from "../about-us/AboutUs";
 import BackToTop from "../../components/back-to-top/BackToTop";
+import { ReactComponent as Background } from "../../resources/images/homepage/hinh_with_man.svg";
 
 export default class HomepageContent extends Component {
   render() {
@@ -21,7 +22,7 @@ export default class HomepageContent extends Component {
         </div>
         <div className="homepage-content-image" />
         <ProductShowcase />
-        <div className="homepage-content-image-lifestyle"/>
+        <div className="homepage-content-image-lifestyle" />
         <div id="homepage-content-title-2">
           <h3 id="hc-title-2-1">Với lý tưởng</h3>
           <div id="hc-title-2-2">
@@ -39,6 +40,7 @@ export default class HomepageContent extends Component {
           <h3>SẢN PHẨM CỦA ECOLIFE CÓ GÌ ĐỘC ĐÁO</h3>
         </div>
         <div id="homepage-content-description-3">
+          <Background width="100%" />
           <p className="first-paragraph" id="homepage-grid-content-1">
             Hẳn bạn đang rất ngạc nhiên, làm sao nguyên liệu ở thể lỏng lại có
             thể thành hình cứng cáp, bền bỉ trong ly cà phê đá ở các cuộc họp
