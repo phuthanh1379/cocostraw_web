@@ -37,7 +37,7 @@ export default class HomepageContent extends Component {
         </div>
         <div className="web-logo" />
         <div id="homepage-content-title-3">
-          <h3>SẢN PHẨM CỦA ECOLIFE CÓ GÌ ĐỘC ĐÁO</h3>
+          <h3>SẢN PHẨM CỦA ECOLIFE <br /> CÓ GÌ ĐỘC ĐÁO</h3>
         </div>
         <div id="homepage-content-description-3">
           <Background width="100%" />
