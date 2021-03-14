@@ -8,7 +8,7 @@
   align-items: center;
   justify-content: space-between;
   position: fixed;
-  box-shadow: 0px 3px 2px -2px #b5b5b5;  
+  box-shadow: 0px 3px 2px -2px #b5b5b5;
   // border-bottom: 2px solid #465724;
 }
 
@@ -16,29 +16,48 @@
   // flex: 2;
   // display: flex;
   // align-items: center;
-    // flex: 0 0 50%;
+  // flex: 0 0 50%;
+  width: auto;
   height: 100%;
-  padding: 10px 0 10px 150px;
-
-  img {
-    object-fit: cover;
+  padding: 20px 0px 20px 150px;
+  &-logo {
     height: 100%;
-    background-color: transparent;
+    width: auto;
   }
+  // padding: 10px 0 10px 150px;
 
-  img:hover {
-    cursor: pointer;
-    opacity: 0.7;
-    transition: all .25s ease;
-    -webkit-animation:spin 4s linear infinite;
-    -moz-animation:spin 4s linear infinite;
-    animation:spin 4s linear infinite;
-  }
+  // img {
+  //   object-fit: cover;
+  //   height: 100%;
+  //   background-color: transparent;
+  // }
+
+  // img:hover {
+  //   cursor: pointer;
+  //   opacity: 0.7;
+  //   transition: all .25s ease;
+  //   -webkit-animation:spin 4s linear infinite;
+  //   -moz-animation:spin 4s linear infinite;
+  //   animation:spin 4s linear infinite;
+  // }
 }
 
-@-moz-keyframes spin { 100% { -moz-transform: rotate(-360deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(-360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(-360deg); transform:rotate(-360deg); } }
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(-360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(-360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+  }
+}
 
 .menu {
   // flex: 0 0 50%;
@@ -62,15 +81,15 @@
   .menu-item {
     color: #86a746;
     display: block;
-    font: 17px 'Montserrat', sans-serif;
+    font: 17px "Montserrat", sans-serif;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    -webkit-transition: all .25s ease;
-    -moz-transition: all .25s ease;
-    -ms-transition: all .25s ease;
-    -o-transition: all .25s ease;
-    transition: all .25s ease;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -ms-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
     padding: 0;
     margin: 0px 25px 0 25px;
     cursor: pointer;
