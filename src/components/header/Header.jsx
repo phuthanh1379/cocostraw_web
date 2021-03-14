@@ -9,24 +9,24 @@ const Header = () => {
     return (
         <div className="container" id="header">
             <div className="menu-logo">
-                <Link to="/">
+                <LinkRouter to="/" onClick={() => scroll.scrollToTop()}>
                     <img src={logo} alt="logo"/>
-                </Link>
+                </LinkRouter>
             </div>
-            <div className="menu">
-                <ul>
-                    <li>
-                        <LinkRouter to="/" onClick={() => scroll.scrollToTop()} className="menu-item">
+            <div className="menu-container">
+                <ul className="menu">
+                    <li className="menu-item">
+                        <LinkRouter to="/" onClick={() => scroll.scrollToTop()} id="link-router">
                             TRANG CHỦ    
                         </LinkRouter>
                     </li>
-                    <li>
-                        <Link to="homepage-product" className="menu-item" spy={true} smooth={true} offset={-200}>
+                    <li className="menu-item">
+                        <Link to="homepage-product" spy={true} smooth={true} offset={-200}>
                             SẢN PHẨM
                         </Link>    
                     </li>
-                    <li>
-                        <Link to="homepage-content-title-3" className="menu-item" spy={true} smooth={true} offset={-180}>
+                    <li className="menu-item">
+                        <Link to="homepage-content-title-3" spy={true} smooth={true} offset={-180}>
                             VỀ CHÚNG TÔI
                         </Link>
                     </li>
@@ -35,5 +35,29 @@ const Header = () => {
         </div>
     );
 };
-
 export default Header;
+
+// import React from "react";
+
+// import "./Header.scss";
+
+// import Logo from "../../resources/images/logo/logo_mini.png";
+
+// const Header = () => {
+//   return (
+//     <div className="header">
+//       <div className="header__logo-container">
+//         <img className="header__logo" src={Logo} alt="header logo" />
+//       </div>
+//       <div className="header__list-container">
+//         <ul className="header__list">
+//           <li>TRANG CHỦ</li>
+//           <li>SẢN PHẨM</li>
+//           <li>VỀ CHÚNG TÔI</li>
+//         </ul>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default Header;

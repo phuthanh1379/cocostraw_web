@@ -1,4 +1,5 @@
 .back-to-top {
+  margin-top: 10px;
   display: flex;
   width: 100%;
   padding: 1rem 2rem;
@@ -9,6 +10,7 @@
 
   &__text {
     font-size: 1.5rem;
+    font-weight: bold;
     color: white;
     margin-left: 1rem;
   }

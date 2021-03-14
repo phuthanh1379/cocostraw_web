@@ -10,7 +10,6 @@ class HomePage extends Component {
       <div className="homepage top">
         <HomepageSlider />
         <HomepageContent />
-        <BackToTop iconSize={32} />
       </div>
     );
   }

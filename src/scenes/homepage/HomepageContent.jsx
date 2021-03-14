@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import { animateScroll as scroll } from "react-scroll";
 
 import "./HomepageContent.scss";
 import ProductShowcase from "../product/ProductShowcase";
 import AboutUs from "../about-us/AboutUs";
+import BackToTop from "../../components/back-to-top/BackToTop";
 
 export default class HomepageContent extends Component {
   render() {
@@ -21,7 +21,7 @@ export default class HomepageContent extends Component {
         </div>
         <div className="homepage-content-image" />
         <ProductShowcase />
-        <div className="homepage-content-image-lifestyle" />
+        <div className="homepage-content-image-lifestyle"/>
         <div id="homepage-content-title-2">
           <h3 id="hc-title-2-1">Với lý tưởng</h3>
           <div id="hc-title-2-2">
@@ -76,20 +76,8 @@ export default class HomepageContent extends Component {
               <img src={signature}/>
             </div> */}
         <div className="homepage-content-image-concept" />
-        <div id="homepage-content-thankyou">
-          <p>
-            Cảm ơn bạn đã lựa chọn chúng tôi trong rất nhiều sản phẩm chất lượng
-            cùng mục đích bảo vệ Mẹ Thiên Nhiên. Nếu bạn có ý tưởng xây dựng nào
-            để cải thiện môi trường thì cho Ecolife một cuộc hẹn nhé ;)
-          </p>
-          <h4>ĐỪNG NGẠI NGẦN KẾT NỐI VỚI CHÚNG TÔI.</h4>
-        </div>
         <AboutUs />
-        {/* <div id="back-to-top-btn">
-              <div onClick={() => scroll.scrollToTop()}>
-                <label>&uarr; BACK TO TOP</label>
-              </div>
-            </div> */}
+        <BackToTop iconSize={32} />
       </div>
     );
   }
